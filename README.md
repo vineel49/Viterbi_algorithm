@@ -1,3 +1,5 @@
 # Decoding convolutional codes using the Viterbi algorithm
 The Viterbi algorithm is implemented using arrays.
 Simulating 10^6 frames took just 332 seconds !
+
+You can learn Viterbi algorithm from this textbook: Digital Communications and Signal Processing by K Vasudevan, (unit 3).

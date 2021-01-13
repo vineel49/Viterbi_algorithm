@@ -30,7 +30,7 @@ int P_Ip[4][2]={{0,1},{0,1},{0,1},{0,1}}; // previous inputs
 int Ga_Inx[4][2]={{0,3},{1,2},{0,3},{1,2}}; // branch indices for path-metric recursion 
 int num_states=4; // number of states in the trellis
 /*------------------------------------------------------*/
-int fr_cnt;
+long int fr_cnt;
 long long int C_BER=0;
 for(fr_cnt=0;fr_cnt<sim_runs;fr_cnt++)
 {
